@@ -1,0 +1,28 @@
+import PySimpleGUI as sg
+import sys
+import os 
+
+if os.environ.get('DISPLAY','') == '':
+        print('no display found. Using :0.0')
+        os.environ.__setitem__('DISPLAY', ':0.0')
+
+sg.theme('DarkAmber')
+
+#TODO add the timers
+#TODO button to reset the timers
+
+layout = [[sg.Text('How long has Cylus gone without:', justification='center', size=(200, 1), font=('Arial', 30))],
+          [sg.Text('Being Outside                              Food/Water ', font=('Arial', 25), pad=(40, 15))],
+          [sg.Button('Reset', key='reset1', pad = (110, 10))],
+          [sg.Button('Reset', key='reset2', pad = ((475, 0), (0, 250 )))]]
+         # [sg.Button('Exit', size=(5, 1), pad=(350, (0, 0 )))]]
+
+window = sg.Window('Cylus Timer', layout, no_titlebar=True, location=(0,0), size=(800,480), keep_on_top=True)
+
+while True:
+    event, values= window.read()
+    print(event, values)
+    if event == sg.WIN_CLOSED or event == 'Exit':
+        break
+
+window.close()
