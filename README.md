@@ -4,10 +4,13 @@
 
 ### Description
 
-This is a repository where I will be working on various projects. Primarily I will be focusing on learning Python as the simplicity and 
+This is a repository where I will be working on various projects. Primarily I will be focusing on learning Python as the simplicity and automation. 
 
 ### Project Descriptions
+include how to install and run projects
 
 ## About Me
+
+I am currently a Cyber Security Engineering student at Iowa State University!
 
 <img src="https://github-readme-stats.vercel.app/api?username=zachroberthirst" /> 
