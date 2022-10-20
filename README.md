@@ -6,11 +6,10 @@
 
 ### Description
 
-This is a repository where I will be working on various projects. Primarily I will be focusing on learning Python as the simplicity and automation. 
+This is a repository where I will be working on various projects. Primarily I will be focusing on learning Python for the simplicity and automation. 
 
 ### Project Descriptions
-include how to install and run projects
 
-## About Me
+<p> <h4>Cylus Clock:</h4> An interface I designed a few months after getting a new puppy. During the first semester with him I struggled to keep classes and his needs (food/water/bathroom) at the forefront of my mind. To alleviate this problem I created a gui interface using PySimpleGUI. This interface showed incrementing time in the three catagories mentioned above. One for the last time my puppy had been outside, the last time he ate food, and the last time he had been given water. Below each timer was a reset button that would reset the time for each individual clock. </p> 
 
-link to main page reamde
+
